@@ -295,3 +295,63 @@ button.normal {
   background: #388178;
   color: #fff;
 }
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("img/banner/family.png");
+  min-width: 500px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#sm-banner h4 {
+  color: rebeccapurple;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+#sm-banner h2 {
+  color: yellow;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: darkslateblue;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button {
+  background: #088178;
+  border: 1px solid #088178;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url("img/banner/shirts\ with\ hanger.png");
+}
