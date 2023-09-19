@@ -279,7 +279,7 @@ button.normal {
   align-items: center;
   text-align: center;
   background-image: url("img/banner/1.jpg");
-  height: 40vh;
+  height: 45vh;
   background-size: cover;
   background-position: center;
   color: white;
@@ -629,13 +629,21 @@ footer .copyright {
   #feature .fe-box {
     width: 120px;
     margin: 0 0 15px 0;
+    padding: 10px;
   }
 
   #product1 .pro {
     width: 100%;
   }
-  #banner {
-    width: 100;
+  #banner h4 {
+    color: white;
+    font-size: 14px;
+  }
+
+  #banner h2 {
+    color: white;
+
+    font-size: 12px;
   }
 
   #sm-banner .banner-box {
