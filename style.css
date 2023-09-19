@@ -151,6 +151,7 @@ button.normal {
 #feature {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #feature .fe-box {
@@ -627,7 +628,7 @@ footer .copyright {
   }
 
   #feature .fe-box {
-    width: 155px;
+    width: 140px;
     margin: 0 0 15px 0;
   }
 
