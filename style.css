@@ -784,9 +784,12 @@ footer .copyright {
     margin: 0;
   }
   #prodetails #MainImg {
-    padding-left: 0px;
+    padding-left: 20px;
   }
   #prodetails .single-pro-details {
     width: 100%;
+  }
+  .section-p1 {
+    padding: 30px 30px;
   }
 }
